@@ -1,10 +1,10 @@
 ## Alpine container with nginx
 
-This is a mini docker container ![](https://images.microbadger.com/badges/image/nimmis/alpine-apache.svg) based on Alpine OS and nginx.
+This is a mini docker container based on Alpine OS and nginx.
 
-This image is build using [alpine](https://hub.docker.com/r/nimmis/alpine-micro/) offical image as base image and installing nginx component. The default root directory is changed to [/web] and no additional modifications maded, no more component were added.
+This image is build using [alpine](https://hub.docker.com/r/_/alpine/) offical image as base image and installing nginx component. The default root directory is changed to [/web] and no additional modifications maded, no more component were added.
 
-To view build process check the [Dockerfile](https://github.com/rajezvelse/docker-alpine-nginx/Dockerfile).
+To view build process check the [Dockerfile](https://github.com/rajezvelse/docker-alpine-nginx/blob/master/Dockerfile).
 
 #### Starting the container as a daemon
 

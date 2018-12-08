@@ -12,6 +12,8 @@ cp -r /var/lib/nginx/html/index.html /web
 # Set default server configurations
 COPY ./conf.d/default.conf /etc/nginx/conf.d/default.conf
 
+WORKDIR /web
+
 EXPOSE 80 443
 
 CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
